@@ -12,8 +12,8 @@ This file contains pre-cached content for QR code URLs to eliminate the need for
 // Example C# Dictionary Implementation
 public static Dictionary<string, PlantInfo> QRCodeLookup = new Dictionary<string, PlantInfo>
 {
-    ["https://henryvu27.github.io/plants/TOM-BS-001"] = new PlantInfo { /* tomato data */ },
-    ["https://henryvu27.github.io/plants/BEP-CYW-003"] = new PlantInfo { /* bell pepper data */ },
+    ["https://henryvu27.github.io/Plants/plants/TOM-BS-001"] = new PlantInfo { /* tomato data */ },
+    ["https://henryvu27.github.io/Plants/plants/BEP-CYW-003"] = new PlantInfo { /* bell pepper data */ },
     // ... etc
 };
 
@@ -32,7 +32,7 @@ public class PlantInfo
 
 ---
 
-## URL: https://henryvu27.github.io/plants/TOM-BS-001
+## URL: https://henryvu27.github.io/Plants/plants/TOM-BS-001
 
 ### Tomato - Beefsteak Variety
 
@@ -80,7 +80,7 @@ public class PlantInfo
 
 ---
 
-## URL: https://henryvu27.github.io/plants/BEP-CYW-003
+## URL: https://henryvu27.github.io/Plants/plants/BEP-CYW-003
 
 ### Bell Pepper - California Wonder Variety
 
@@ -128,7 +128,7 @@ public class PlantInfo
 
 ---
 
-## URL: https://henryvu27.github.io/plants/OKR-CG-002
+## URL: https://henryvu27.github.io/Plants/plants/OKR-CG-002
 
 ### Okra - Clemson Spineless Variety
 
@@ -176,7 +176,7 @@ public class PlantInfo
 
 ---
 
-## URL: https://henryvu27.github.io/plants/CUC-MN-004
+## URL: https://henryvu27.github.io/Plants/plants/CUC-MN-004
 
 ### Cucumber - Marketmore 76 Variety
 
@@ -224,7 +224,7 @@ public class PlantInfo
 
 ---
 
-## URL: https://henryvu27.github.io/plants/ZUC-BDN-005
+## URL: https://henryvu27.github.io/Plants/plants/ZUC-BDN-005
 
 ### Zucchini - Black Beauty Variety
 
@@ -277,11 +277,11 @@ public class PlantInfo
 For rapid QR code matching:
 
 ```
-TOM-BS-001 → https://henryvu27.github.io/plants/TOM-BS-001
-BEP-CYW-003 → https://henryvu27.github.io/plants/BEP-CYW-003  
-OKR-CG-002 → https://henryvu27.github.io/plants/OKR-CG-002
-CUC-MN-004 → https://henryvu27.github.io/plants/CUC-MN-004
-ZUC-BDN-005 → https://henryvu27.github.io/plants/ZUC-BDN-005
+TOM-BS-001 → https://henryvu27.github.io/Plants/plants/TOM-BS-001
+BEP-CYW-003 → https://henryvu27.github.io/Plants/plants/BEP-CYW-003  
+OKR-CG-002 → https://henryvu27.github.io/Plants/plants/OKR-CG-002
+CUC-MN-004 → https://henryvu27.github.io/Plants/plants/CUC-MN-004
+ZUC-BDN-005 → https://henryvu27.github.io/Plants/plants/ZUC-BDN-005
 ```
 
 ---
