@@ -368,8 +368,22 @@ body {
 
 .plant-card-header {
   background: linear-gradient(135deg, var(--light-green), var(--accent-green));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  padding: 0;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-overlay {
+  background: linear-gradient(to top, rgba(45, 80, 22, 0.8), rgba(45, 80, 22, 0.4));
+  width: 100%;
   padding: 1.5rem;
+  backdrop-filter: blur(1px);
 }
 
 .plant-card h3 {
@@ -398,7 +412,120 @@ body {
 .plant-card-footer {
   padding: 1rem 1.5rem;
   background: var(--bg-light);
-  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.qr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.qr-code {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.qr-code:hover {
+  transform: scale(1.05);
+}
+
+.qr-label {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* QR Code Section for Detail Pages */
+.qr-section-detail {
+  background: white;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px var(--shadow);
+  border: 1px solid var(--border-light);
+}
+
+.qr-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.qr-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.qr-info h3 {
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.qr-info p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.qr-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.qr-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-large:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+.qr-id {
+  background: var(--primary-green);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .qr-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .qr-section {
+    order: -1;
+  }
 }
 
 .plant-link {
