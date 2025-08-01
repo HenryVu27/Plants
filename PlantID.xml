@@ -1,0 +1,185 @@
+{
+  "plants": [
+    {
+      "plantId": "TOM-BS-001",
+      "qrCodeUrl": "https://api.example.com/plants/TOM-BS-001",
+      "commonName": "Tomato",
+      "botanicalName": "Solanum lycopersicum",
+      "variety": "Beefsteak",
+      "description": "A classic, large, and juicy tomato variety perfect for slicing for sandwiches and burgers. Known for its meaty texture and balanced sweet-acid flavor.",
+      "plantCare": {
+        "sunlight": "Full Sun (6-8 hours/day)",
+        "watering": "Consistent moisture. Water deeply 1-2 times a week at the base, more in extreme heat. Avoid overhead watering to prevent disease.",
+        "soil": "Well-drained, nutrient-rich loamy soil. pH 6.2-6.8.",
+        "fertilizing": "Feed with a balanced, low-nitrogen fertilizer when planting, and then again when fruit starts to form.",
+        "idealTemperature": "70-85°F (21-29°C)",
+        "spacing": "24-36 inches apart"
+      },
+      "timeline": {
+        "daysToGerminate": "7-14 days",
+        "daysToHarvest": "80-90 days from transplant",
+        "harvestingTips": "Harvest when fruit is firm and fully colored. Gently twist or use snips to remove from the vine."
+      },
+      "health": {
+        "commonPests": ["Hornworms", "Aphids", "Whiteflies"],
+        "commonDiseases": ["Blight", "Blossom-End Rot", "Fusarium Wilt"],
+        "troubleshooting": "Yellowing leaves can indicate overwatering or a nitrogen deficiency. Blossom-end rot is often caused by inconsistent watering or calcium deficiency."
+      },
+      "additionalInfo": {
+        "funFact": "Tomatoes are technically a fruit, not a vegetable!",
+        "companionPlants": ["Basil", "Carrots", "Marigolds"],
+        "uses": ["Slicing", "Sauces", "Salads"]
+      },
+      "imageGallery": [
+        {"url": "https://placehold.co/600x400/c23b22/FFFFFF?text=Ripe+Tomato", "caption": "Ripe Beefsteak Tomato"},
+        {"url": "https://placehold.co/600x400/228B22/FFFFFF?text=Tomato+Plant", "caption": "Healthy Tomato Plant"},
+        {"url": "https://placehold.co/600x400/FFD700/000000?text=Tomato+Flower", "caption": "Tomato Flower"}
+      ]
+    },
+    {
+      "plantId": "OKR-CG-002",
+      "qrCodeUrl": "https://api.example.com/plants/OKR-CG-002",
+      "commonName": "Okra",
+      "botanicalName": "Abelmoschus esculentus",
+      "variety": "Clemson Spineless",
+      "description": "A popular, high-yielding variety that produces dark green, spineless pods. A staple in Southern cuisine, great for frying, grilling, or in gumbos.",
+      "plantCare": {
+        "sunlight": "Full Sun (8+ hours/day)",
+        "watering": "Drought-tolerant once established, but consistent watering yields better pods. Water deeply once a week.",
+        "soil": "Prefers fertile, well-drained soil. pH 6.5-7.0.",
+        "fertilizing": "Mix compost into the soil before planting. Side-dress with fertilizer if leaves turn pale green.",
+        "idealTemperature": "75-90°F (24-32°C)",
+        "spacing": "18 inches apart"
+      },
+      "timeline": {
+        "daysToGerminate": "5-10 days",
+        "daysToHarvest": "50-60 days",
+        "harvestingTips": "Harvest pods when they are 2-4 inches long. They become tough if left longer. Use a knife or pruners to cut the stem."
+      },
+      "health": {
+        "commonPests": ["Aphids", "Stink Bugs", "Corn Earworms"],
+        "commonDiseases": ["Powdery Mildew", "Fusarium Wilt"],
+        "troubleshooting": "Yellow, sticky pods are overripe. Lack of pods can be due to extreme heat or lack of pollination."
+      },
+      "additionalInfo": {
+        "funFact": "Okra is related to hibiscus and cotton.",
+        "companionPlants": ["Peppers", "Basil", "Melons"],
+        "uses": ["Frying", "Gumbo", "Grilling", "Pickling"]
+      },
+      "imageGallery": [
+        {"url": "https://placehold.co/600x400/006400/FFFFFF?text=Okra+Pods", "caption": "Young Okra Pods"},
+        {"url": "https://placehold.co/600x400/228B22/FFFFFF?text=Okra+Plant", "caption": "Okra Plant in the Sun"},
+        {"url": "https://placehold.co/600x400/FFFFE0/000000?text=Okra+Flower", "caption": "Beautiful Okra Flower"}
+      ]
+    },
+    {
+      "plantId": "BEP-CYW-003",
+      "qrCodeUrl": "https://api.example.com/plants/BEP-CYW-003",
+      "commonName": "Bell Pepper",
+      "botanicalName": "Capsicum annuum",
+      "variety": "California Wonder",
+      "description": "A classic sweet bell pepper that starts green and ripens to a vibrant red. Features a thick wall, making it great for stuffing or eating fresh.",
+      "plantCare": {
+        "sunlight": "Full Sun (6-8 hours/day)",
+        "watering": "Keep soil consistently moist, but not waterlogged. Water at the base.",
+        "soil": "Well-drained, sandy loam. pH 6.0-6.8.",
+        "fertilizing": "Fertilize after the first fruit set. Avoid high-nitrogen fertilizers which can promote leaves over fruit.",
+        "idealTemperature": "70-80°F (21-27°C)",
+        "spacing": "18-24 inches apart"
+      },
+      "timeline": {
+        "daysToGerminate": "10-21 days",
+        "daysToHarvest": "60-75 days (green), 85-95 days (red)",
+        "harvestingTips": "Harvest with a sharp knife or pruners, leaving a small piece of stem attached to the pepper."
+      },
+      "health": {
+        "commonPests": ["Aphids", "Flea Beetles", "Pepper Weevils"],
+        "commonDiseases": ["Blossom-End Rot", "Bacterial Spot"],
+        "troubleshooting": "Sunscald (papery spots on the fruit) can occur in intense sun. Provide partial shade during peak heat."
+      },
+      "additionalInfo": {
+        "funFact": "Green and red bell peppers are the same fruit; the red ones have simply been left on the vine to ripen longer and contain more Vitamin C.",
+        "companionPlants": ["Tomatoes", "Carrots", "Onions"],
+        "uses": ["Salads", "Stir-fry", "Stuffed Peppers", "Fajitas"]
+      },
+      "imageGallery": [
+        {"url": "https://placehold.co/600x400/FF0000/FFFFFF?text=Red+Bell+Pepper", "caption": "Ripe Red Pepper"},
+        {"url": "https://placehold.co/600x400/008000/FFFFFF?text=Green+Bell+Pepper", "caption": "Unripe Green Pepper"},
+        {"url": "https://placehold.co/600x400/3CB371/FFFFFF?text=Pepper+Plant", "caption": "Bell Pepper Plant"}
+      ]
+    },
+    {
+      "plantId": "CUC-MN-004",
+      "qrCodeUrl": "https://api.example.com/plants/CUC-MN-004",
+      "commonName": "Cucumber",
+      "botanicalName": "Cucumis sativus",
+      "variety": "Marketmore 76",
+      "description": "A popular slicing cucumber known for its productivity and disease resistance. Produces straight, dark green, 8-9 inch fruits.",
+      "plantCare": {
+        "sunlight": "Full Sun (6-8 hours/day)",
+        "watering": "Cucumbers are thirsty! They require at least one inch of water per week. Water deeply. Trellising helps with air circulation.",
+        "soil": "Light, fertile soil with lots of organic matter. pH 6.0-7.0.",
+        "fertilizing": "Feed with a balanced liquid fertilizer every 3-4 weeks once vines begin to grow.",
+        "idealTemperature": "65-75°F (18-24°C)",
+        "spacing": "36-60 inches apart if not trellised"
+      },
+      "timeline": {
+        "daysToGerminate": "3-10 days",
+        "daysToHarvest": "55-65 days",
+        "harvestingTips": "Harvest when fruits are of a usable size but before they start to turn yellow. Cut the stem rather than pulling."
+      },
+      "health": {
+        "commonPests": ["Cucumber Beetles", "Squash Bugs", "Aphids"],
+        "commonDiseases": ["Powdery Mildew", "Downy Mildew"],
+        "troubleshooting": "Bitter cucumbers can be caused by heat stress or inconsistent watering. Curled fruit often indicates poor pollination."
+      },
+      "additionalInfo": {
+        "funFact": "Cucumbers are composed of about 96% water.",
+        "companionPlants": ["Beans", "Corn", "Radishes", "Dill"],
+        "uses": ["Salads", "Pickling", "Infused Water"]
+      },
+      "imageGallery": [
+        {"url": "https://placehold.co/600x400/3A5F0B/FFFFFF?text=Cucumber", "caption": "Slicing Cucumber"},
+        {"url": "https://placehold.co/600x400/556B2F/FFFFFF?text=Cucumber+Vine", "caption": "Cucumber Vine on Trellis"},
+        {"url": "https://placehold.co/600x400/FFD700/000000?text=Cucumber+Flower", "caption": "Cucumber Flower"}
+      ]
+    },
+    {
+      "plantId": "ZUC-BDN-005",
+      "qrCodeUrl": "https://api.example.com/plants/ZUC-BDN-005",
+      "commonName": "Zucchini",
+      "botanicalName": "Cucurbita pepo",
+      "variety": "Black Beauty",
+      "description": "A prolific summer squash with glossy, dark green skin. Best harvested when young and tender for the best flavor and texture.",
+      "plantCare": {
+        "sunlight": "Full Sun (6-8 hours/day)",
+        "watering": "Needs consistent moisture. Water deeply about an inch per week, directly on the soil.",
+        "soil": "Humus-rich, well-drained soil. pH 6.0-7.5.",
+        "fertilizing": "Work compost into the soil before planting. A mid-season boost of fertilizer can help if production slows.",
+        "idealTemperature": "65-75°F (18-24°C)",
+        "spacing": "24-36 inches apart"
+      },
+      "timeline": {
+        "daysToGerminate": "7-14 days",
+        "daysToHarvest": "45-55 days",
+        "harvestingTips": "Harvest when 6-8 inches long for best quality. The plant will produce more if you harvest frequently. Cut the stem with a knife."
+      },
+      "health": {
+        "commonPests": ["Squash Vine Borers", "Squash Bugs", "Cucumber Beetles"],
+        "commonDiseases": ["Powdery Mildew", "Blossom-End Rot"],
+        "troubleshooting": "If you have lots of flowers but no fruit, you may have a pollination problem. You can hand-pollinate using a small brush."
+      },
+      "additionalInfo": {
+        "funFact": "The world's largest zucchini on record was over 8 feet long!",
+        "companionPlants": ["Corn", "Beans", "Nasturtiums", "Mint"],
+        "uses": ["Grilling", "Sautéing", "Baking (Zucchini Bread)", "Zoodles"]
+      },
+      "imageGallery": [
+        {"url": "https://placehold.co/600x400/17361A/FFFFFF?text=Zucchini", "caption": "Young Zucchini"},
+        {"url": "https://placehold.co/600x400/2A552F/FFFFFF?text=Zucchini+Plant", "caption": "Zucchini Bush Plant"},
+        {"url": "https://placehold.co/600x400/FFC72C/000000?text=Zucchini+Flower", "caption": "Edible Zucchini Blossom"}
+      ]
+    }
+  ]
+}
+

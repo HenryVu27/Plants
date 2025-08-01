@@ -1,0 +1,444 @@
+/* Plant QR Code System Styles */
+
+:root {
+  --primary-green: #2d5016;
+  --light-green: #4a7c59;
+  --accent-green: #7da87b;
+  --bg-light: #f8fdf4;
+  --text-dark: #2c3e50;
+  --text-light: #7f8c8d;
+  --border-light: #e8f5e8;
+  --shadow: rgba(45, 80, 22, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.plant-header {
+  background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+  color: white;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.plant-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.plant-header .botanical-name {
+  font-style: italic;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.plant-header .variety {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+/* Plant ID Badge */
+.plant-id {
+  background: var(--accent-green);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px var(--shadow);
+}
+
+/* Section Styling */
+.plant-section {
+  background: white;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px var(--shadow);
+}
+
+.section-header {
+  background: var(--primary-green);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header:hover {
+  background: var(--light-green);
+}
+
+.section-header .toggle-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.section-content {
+  padding: 1.5rem;
+}
+
+.section-content.collapsed {
+  display: none;
+}
+
+/* Care Instructions Grid */
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.care-item {
+  background: var(--bg-light);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-green);
+}
+
+.care-label {
+  font-weight: 600;
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.care-value {
+  color: var(--text-dark);
+}
+
+/* Timeline */
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.timeline-item {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-light);
+  border-radius: 8px;
+}
+
+.timeline-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-green);
+  display: block;
+}
+
+.timeline-label {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+}
+
+/* Health Info */
+.health-category {
+  margin-bottom: 1.5rem;
+}
+
+.health-category h4 {
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.pest-list, .disease-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.pest-tag, .disease-tag {
+  background: #ff6b6b;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.disease-tag {
+  background: #ff9f43;
+}
+
+.troubleshooting {
+  background: #fff5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff6b6b;
+}
+
+/* Additional Info */
+.additional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.info-block {
+  background: var(--bg-light);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.info-block h4 {
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+}
+
+.companion-plants, .uses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.companion-tag, .use-tag {
+  background: var(--accent-green);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.fun-fact {
+  background: #e8f4fd;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  font-style: italic;
+}
+
+/* Image Gallery */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow);
+}
+
+.gallery-caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+/* Navigation */
+.nav-links {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.btn {
+  background: var(--primary-green);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--light-green);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .plant-header h1 {
+    font-size: 2rem;
+  }
+  
+  .care-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .additional-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Index Page Styles */
+.catalog-header {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.catalog-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.catalog-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.plant-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px var(--shadow);
+}
+
+.plant-card-header {
+  background: linear-gradient(135deg, var(--light-green), var(--accent-green));
+  color: white;
+  padding: 1.5rem;
+}
+
+.plant-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.plant-card .botanical {
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.plant-card .variety {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.plant-card-content {
+  padding: 1.5rem;
+}
+
+.plant-card-footer {
+  padding: 1rem 1.5rem;
+  background: var(--bg-light);
+  text-align: center;
+}
+
+.plant-link {
+  background: var(--primary-green);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.plant-link:hover {
+  background: var(--light-green);
+}
+
+/* Quick Info Styles for Plant Cards */
+.quick-info {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.info-item {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.info-item strong {
+  color: var(--primary-green);
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .catalog-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .plant-grid {
+    grid-template-columns: 1fr;
+  }
+}
